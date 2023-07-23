@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.authorization-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    overflow: hidden;
+}
+
+/* authorization-cell */
+
+.authorization-cell {
+    width: calc(100% - 500px);
+    float: left;
+    padding: 30px;
+}
+
+/* authorization-cell header */
+
+.header {
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.logo div {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+.signup {
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.signup div {
+    display: inline-block;
+}
+
+.signup a {
+    text-decoration: none;
+    color: #20dc49;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
+
+/* authorization-cell content */
+
+.authorization-cell .content {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content .title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-child-1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title-child-2 {
+    font-size: 13px;
+}
+
+.content-button {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content-button button {
+    font-size: 10px;
+    padding: 7px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+.content-button button:hover {
+    cursor: pointer;
+}
+
+.content-button .google {
+    margin-right: 5px;
+}
+
+.content-button img {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.splitter {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.signin-block input {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.email-input-box {
+    margin-bottom: 20px;
+}
+
+.password-input-box button {
+    background-color: white;
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.password-input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.toggle-block {
+    font-size: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.toggle {
+    float: left;
+}
+
+.circle-background {
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+    background-color: #dbd6d6;
+    border-radius: 10px;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 1px;
+    left: 2px;
+
+}
+
+.toggle-comment {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.recover-password {
+    text-decoration: none;
+    float: right;
+    color: red;
+}
+
+.recover-password:hover {
+    text-decoration: underline;
+}
+
+.login-button-block .login-button {
+    width: 100%;
+    background-color: #f0f2f5;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 15px;
+}
+
+.login-button-block .login-button:hover {
+    background-color: #20dc49;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* img-cell */
+
+.img-cell {
+    font-family: 'Poppins', sans-serif;
+    float: left;
+    width: 500px;
+    height: 100%;
+    background-image: url("./img/linkedin-sales-solutions-B_DJO2-K22M-unsplash\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.message-box {
+    background-color: #fff2f2;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    right: 30px;
+
+}
+
+.message-button {
+    margin-bottom: 10px;
+}
+
+
+.message-button img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+.message-button button {
+    vertical-align: middle;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 7px;
+    background-color: #20dc49;
+    border-radius: 10px;
+    border: none;
+}
+
+.message-button button:hover {
+    cursor: pointer;
+}
+
+.message {
+    font-size: 14px;
+}
+
+/* img-cell end*/
